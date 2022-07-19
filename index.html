@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- Keywords moteur de recherche -->
+    <meta name="keywords" content="allianznature, prdouits cosmétiques, savons artisanaux, magasine">
+
+    <!---- Definie une description de notre page-->
+    <meta name="description"
+        content="Allianznature. Première marque béninoise de cosmétiques naturel avec des savons artisanaux aux formes atypiques dotées d'une touche artistique.">
+
+    <!-- Auteur du site -->
+
+    <meta name="author" content="Roalnde MONOU">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/favicon.jpg">
+
+    <!--Lien pour bouton slide-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fin flien bouton slide-->
+    <title>AllianzNature || Bienvenue</title>
+    <!--Police-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Fin Police-->
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+
+    <!--  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">arrow_upward </i></button>-->
+
+    <!--Iconics-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <div id="bouton">
+        <img src="image/arrow-up-solid.svg" class="scrol-icone">
+    </div>
+-->
+    <!-- Début- Loader-->
+    <div class="preloader">
+        <img src="image/logohead.png" alt="">
+        <span class="loader"></span>
+    </div>
+    <!--Fin - Loader-->
+
+    <div class="hero">
+        <div class="Adresse-hero">
+            <ion-icon name="home-outline" class="icon-home"></ion-icon>
+            <p> : <span>03bp 732</span> , Allianznature, Cotonou - Bénin</p>
+        </div>
+        <div class="Adresse-hero horrairee">
+            <ion-icon name="alarm-outline" class="icon-home"></ion-icon>
+            <p> : <span> Du Lundi au Samedi </span> : 09h00-18h00</p>
+        </div>
+        <div class="icon-resaux">
+            <a href="https://www.facebook.com/AllianzNature" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/allianznature" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://wa.me/22954333808" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/company/allianznature" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <header>
+        <div class="container-home">
+            <a href="index.html" class="logo"> <img src="image/LOGO C.png" alt="Allianz Nature" width="220px"> </a>
+            <nav>
+                <ul class="menu">
+                    <li class="present menu-item"><a href="index.html"> Accueil</a></li>
+                    <li class=" menu-item "><a href="about.html"> Notre Marque</a></li>
+                    <li class=" menu-item ">
+                        <a href="#" class="sub-btn">Produits / Services <i class="fas fa-angle-down"></i> </a>
+                        <ul class="sub-menu">
+                            <li class="sub-item"> <a href="produits.html"> Nos Produits </a></li>
+                            <li class="sub-item"> <a href="services.html"> Nos Services</a></li>
+                        </ul>
+                    </li>
+                    <li class=" menu-item "><a href="magasine.html"> Magazine </a></li>
+                    <li class=" menu-item "><a href="contact.html"> Rejoignez-Nous</a></li>
+                </ul>
+
+            </nav>
+            <button class="btn-header" id="open__nav-btn"><i class="bx bx-menu"></i></button>
+            <button class="btn-header" id="close__nav-btn"><i class="bx bx-x"></i></button>
+
+        </div>
+    </header>
+    <div class="slider">
+        <img src="image/slider1.jpg" alt="Slider1" class="img__slider active">
+        <img src="image/slider5.jpg" alt="Slider2" class="img__slider">
+        <img src="image/slider4.jpg" alt="Slider3" class="img__slider">
+        <img src="image/slider3.jpg" alt="Slider4" class="img__slider">
+        <div class="suivant">
+            <i class="fas fa-chevron-circle-right"></i>
+        </div>
+        <div class="precedent">
+            <i class="fas fa-chevron-circle-left"></i>
+        </div>
+
+    </div>
+    <div class="info-exper">
+        <div class="info-container exper ">
+            <h2>Le Saviez-vous ?</h2>
+            <p> Nos savons sont fabriqués avec des huiles et beurres végétaux non comédogènes alors dites bye-bye aux
+                comédons.</p>
+        </div>
+        <div class="info-container exper ">
+            <h2>AllianzNature</h2>
+            <p> Première marque Béninoise de cosmétiques naturels avec des savons artisanaux aux formes irrégulières.
+            </p>
+
+        </div>
+        <div class="info-container exper">
+            <h2>Nos Produits</h2>
+            <p>Nous disposons d'une gamme de produits de soins corporele adaptés à tout type de peau.</p>
+        </div>
+    </div>
+    <section class="produits-home">
+        <h2>Quelques Produits</h2>
+        <div class="produits">
+            <a href="produits.html#Savon-Artisanaux" class="produit-image">
+                <img src="image/SanvonAntiseptique.jpg" alt="SanvonAntiseptique" class="img produits-img">
+                <div class="produits-align">
+                    <h5>Savons Artisanaux</h5>
+                    <p> voir plus</p>
+                </div>
+
+            </a>
+            <a href="produits.html#Lait__corporelle" class="produit-image">
+                <img src="image/Lait corporel Parfait Ébène.jpg" alt="lait_corporel" class="img produits-img">
+                <div class="produits-align">
+                    <h5>Lait corporels</h5>
+                    <p> voir plus</p>
+                </div>
+            </a>
+            <a href="produits.html#Crême-section" class="produit-image">
+                <img src="image/creme.jpg" alt="creme" class="img produits-img">
+                <div class="produits-align">
+                    <h5>Crèmes</h5>
+                    <p> voir plus</p>
+                </div>
+            </a>
+            <a href="produits.html#Sérum__Visage" class="produit-image">
+                <img src="image/Gommage visage Parfait-Éclat.jpg" alt="Gommage visage" class="img produits-img">
+                <div class="produits-align">
+                    <h5>Gommage visage </h5>
+                    <p> voir plus</p>
+                </div>
+            </a>
+        </div>
+        <div class="produits-avoir">
+            <a href="produits.html">Tous nos produits ici > </a>
+        </div>
+    </section>
+    <section class="Container-apropos">
+        <div class="apropos-titre">
+            <div class="Container info-apropos">
+                <h4>À propos</h4>
+                <!--  <h1>En Alliance avec la Nature,</h1>-->
+                <!--    <p>Nous créons pour vous des cosmétiques naturels et biologiques aux résultats fabuleux.</p>-->
+                <p> <span> AllianzNature </span> est une marque Béninoise de cosmétiques naturels créée en 2020 qui
+                    se veut de
+                    respecter chaque centimètre de votre peau. Parceque nous sommes soucieux de votre bien être
+                    corporel, nos produits sont fabriqués à base d'huiles et beurres végétaux ainsi que des extraits de
+                    plantes 100 % naturels tels le laurier, la papaye, le baobab, la cannelle, l'avoine et autres pour
+                    apporter à votre peau la beauté et sécurité tant recherchées.</p>
+
+                <p>Eh oui ! Vous voulez en savoir plus <a href="about.html" class="bouton-apropos">cliquez-ici</a></p>
+
+            </div>
+            <div class="apropos-right">
+                <img src="image/about-right.jpg" alt="condiments">
+            </div>
+        </div>
+    </section>
+    <article class="besoins-conseils-home">
+        <div class="besoins-conseils">
+            <div class="besoins-conseils-image">
+                <li><img src="image/femme3.jpg"></li>
+                <li><img src="image/femme6.jpg"></li>
+                <li><img src="image/femme4.jpg"></li>
+                <li><img src="image/femme2.jpg"> </li>
+            </div>
+            <div class="besoins-conseils-home-container">
+                <h2 class="media-screen">Besoin <br> de conseils </h2>
+                <a href="services.html#nos-conseils">cliquez-ici</a>
+            </div>
+        </div>
+    </article>
+
+    <!---
+    <article id="suivi-personels-home">
+        <div class=" suovi">
+            <div class="suivi-container">
+                <p>AllianzNature vous acommpagne dans le traitement de votre peau <br> <a
+                        href="services.html#suivi-personels" class="bouton-suivi"> cliquez-ici</a></p>
+
+            </div>
+            <div class="conseil1-1">
+                <li><img src="image/suivi2.jpg"></li>
+                <li><img src="image/suivi3.jpg"></li>
+                <li><img src="image/suivi1.jpg"></li>
+
+
+            </div>
+
+
+        </div>
+    </article>
+---->
+    <section class="plus-info">
+        <div class="plus-info-text">
+            <h4>Notre passion, prendre soin de votre peau.</h4>
+            <p>De la passion et du désir d'aider est née AllianzNature. AllianzNature est une entreprise béninoise
+                de cosmétiques naturels et de bien être corporel.
+                Une marque de cosmétiques de plus diriez-vous sûrement.</p>
+            <p>Disons plutôt la marque de cosmétiques naturels qu'il vous faut.
+                Et pourquoi donc? Tout simplement parce que nous combinons passion et savoir-faire pour concevoir
+                des produits qui épousent chaque centime de votre peau afin de vous apporter l'équilibre et la
+                sérénité tant recherchés.
+                Pour la petite histoire j'ai toujours été passionnée de cosmétiques étant issue d'une petite famille
+                de 3 filles.
+                Alors que l'adolescence a été pour moi topissime, je n'en dirai pas autant de ma période post
+                maternité où j'ai réellement connu les fameux "boutons d'acnés" qui m'ont fait développer un réel
+                sentiment de complexité.
+                J'ai donc décidé de mettre mes connaissances en pratique.
+                Aujourd'hui je peux prétendre avoir trouvé une solution à mes boutons d'acnés grâce au sérum anti
+                acné de AllianzNature que je voudrais amplement partagé avec toutes ces personnes qui ont du mal à
+                se mirer et à s'assumer et vous faire découvrir par la même nos joyaux.
+                C'est ainsi que AllianzNature fût créée en Septembre 2020 à travers un lancement officiel et une
+                vente privée de tous nos produits que sont des savons artisanaux, des laits corporels, des gels de
+                douche, des sérums et crèmes visage, des masques et gommages.</p>
+        </div>
+    </section>
+
+
+    <section class="témoignages-container">
+        <div class="témoin-titre ">
+            <h2>Nos Partenaires</h2>
+        </div>
+        <div class="nos-témoignages">
+            <div class="témoins ">
+                <a href="https://allianznature.afrikrea.com/fr" target="_blank">
+                    <img src="image/afrikrea.png" alt="afrikrea">
+                </a>
+
+            </div>
+            <div class="témoins ">
+                <a href="https://www.djoloo.com/shop/allianznature/" target="_blank">
+                    <img src="image/djoloo-LOGO.png" alt="djoloo">
+                </a>
+
+            </div>
+            <div class="témoins ">
+                <a href="https://ecommerce.paydunya.com/allianznaturebb64l6" target="_blank">
+                    <img src="image/paydunya-logo.png" alt="paydunya">
+                </a>
+
+            </div>
+            <div class="témoins ">
+                <a href="https://www.goafricaonline.com/bj/580960-allianz-nature-cosmetiques-cotonou-benin"
+                    target="_blank">
+                    <img src="./image/goafricaonline.png" alt="goafricaonline">
+                </a>
+
+            </div>
+        </div>
+        <div class="espace-partenaires ">
+            <h4>Condition pour devennirs partenaires. <br> Téléchargez la documentation <a href="Algo3.pdf"
+                    target="_blank">ici</a></h4>
+        </div>
+        <div class="témoin-titre ">
+            <h2>Points de Vente</h2>
+        </div>
+        <div class=" ventes-point">
+            <a href="https://goo.gl/maps/NmbYyD16XpQaVBeK9" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Les essences d'Essi, <span>(Cotonou)</span></h2>
+
+            </a>
+            <a href="https://goo.gl/maps/mUkjTTLqMdRBQGsJ6" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Centre Panaf, <span>(Cotonou)</span></h2>
+            </a>
+            <a href="" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>FelNice</h2>
+            </a>
+            <a href="https://goo.gl/maps/4VNyauggz4bWMYt28" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Supermarché Défi, <span>(Cotonou)</span> </h2>
+            </a>
+            <a href="https://goo.gl/maps/hWQpDfCh9sgRjvba8" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Ambisol, <span>(Cotonou)</span></h2>
+            </a>
+            <a href="https://goo.gl/maps/x3R97js34Xwt5LtGA" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Boutique les sœurs, <span>(Cotonou)</span></h2>
+            </a>
+            <a href="https://goo.gl/maps/8DFR7Q8hVyiBuVe1A" target="_blank" class="ventes-btn">
+                <i class='bx bxs-location-plus'></i>
+                <h2>Mamika <span>(Cotonou)</span></h2>
+            </a>
+
+        </div>
+
+
+
+
+        <section class="swiper mySwiper">
+            <div class="témoin-titre">
+                <h2>Témoignages</h2>
+            </div>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <p>
+                        J'ai essayé le savon au moringa et à la menthhe poivrée après m'être rasé... Wauuu rien à voir
+                        avec
+                        une mousse à raser. C'est clean et rafrîchissant, je profite pour lancer ma commande de 500g...
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar3.jpg" alt="Patients one" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Ghyslain F.</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        Je n'ai pas su me retenir face à l'odeur enivante du savont chocolat. Tellement il sentait bon
+                        que
+                        c'est une fois sur ma langue je me suis rappelé que ce n'était pas du chocolat comestible mais
+                        plutôt du savon au chocolat. Oh là là AllianzNature vous me faites faire des choses...
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar2.jpg" alt="Patients two" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Mike B.</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        cumque hic repellat. Ducimus, in consequatur?
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar4.jpg" alt="Patients three" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Doe ajne</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        cumque hic repellat. Ducimus, in consequatur?
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar5.jpg" alt="Patients Four" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Roamne Eltion</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        cumque hic repellat. Ducimus, in consequatur?
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar6.jpg" alt="Patients Five" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Gracia Proctor</h5>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        cumque hic repellat. Ducimus, in consequatur?
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar7.jpg" alt="Patients six" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Didie Proctor</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        cumque hic repellat. Ducimus, in consequatur?
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar1.jpg" alt="Patients sevecen" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Bruce Wills</h5>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+    </section>
+
+
+    <section class="nous-joindre">
+        <div class="joindre-footer">
+            <div class="info-horraires-home">
+                <div class="container-info">
+                    <h2>Horaires d'Ouverture</h2>
+                    <div class="heures">
+                        <div class="left">
+                            <p>Lundi</p>
+                            <p>Mardi</p>
+                            <p>Mercrdi</p>
+                            <p>Jeudi</p>
+                            <p>Vendredi</p>
+                            <p>Samedi</p>
+                        </div>
+                        <div class="right">
+                            <p>09h00 ----- 18h00</p>
+                            <p>09h00 ----- 18h00</p>
+                            <p>09h00 ----- 18h00</p>
+                            <p>09h00 ----- 18h00</p>
+                            <p>09h00 ----- 18h00</p>
+                            <p>09h00 ----- 18h00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-right">
+                <div>
+                    <h4>Rejoignez nous</h4>
+                    <p class="info-head">Alianz Nature est à l'écoute de sa clientèle. <br> Veuillez remplir le
+                        formulaire
+                        <a href="contact.html#contact-section">suivant</a> pour nous joindre. <br> Nous vous répondrons
+                        dans les
+                        meilleurs
+                        délais.
+                    </p>
+                </div>
+                <div class="info-renseignements">
+                    <div class="icon-Adresse">
+                        <a href="https://goo.gl/maps/7XUqvqHSK9wayMmn7" target="_blank">
+                            <ion-icon name="home-outline" class="iconfooter"></ion-icon>
+                        </a>
+                        <h2>ADRESSE</h2>
+                        <p>03bp 732, Allianznature, <br> Cotonou - Bénin</p>
+                    </div>
+                    <div class="icon-call">
+                        <a href="tel:+22954333808">
+                            <ion-icon name="call-outline" class="iconfooter"></ion-icon>
+                        </a>
+                        <h2>TELEPHONE</h2>
+                        <a href="tel:+22954333808">
+                            <p> (+229) 54333808 / <br> 95941070</p>
+                        </a>
+                    </div>
+                    <div class="icon-mail">
+                        <a href="mailto:allianznature@gmail.com">
+                            <ion-icon name="mail-outline" class="iconfooter"></ion-icon>
+                        </a>
+                        <h2>E-MAIL</h2>
+                        <a href="mailto:allianznature@gmail.com">
+                            <p> allianznature@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <div class="map-index">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d31720.904922940827!2d2.3852863681887224!3d6.3793973545641425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d6.3914732999999995!2d2.4109917999999997!4m5!1s0x102355408ea0df9b%3A0x2880e8e37be433e4!2sallianz%20nature!3m2!1d6.370207499999999!2d2.3912684!5e0!3m2!1sfr!2sbj!4v1646032627855!5m2!1sfr!2sbj"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <footer class="page-footer">
+        <p>&copy;
+            <span class="date">
+                <!-- 
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+                -->
+            </span>
+            <span class="footer-logo">AllianzNature.</span> <br>
+            Reproduction interdite Construit par <a href="http://simpleit.bj/">Simple IT </a>
+        </p>
+        <div class="icon-footer">
+            <a href="https://www.facebook.com/AllianzNature" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/allianznature" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://wa.me/22954333808" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/company/allianznature" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+
+    </footer>
+    <!--JavaScript-->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
