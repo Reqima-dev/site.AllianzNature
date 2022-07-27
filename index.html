@@ -43,8 +43,8 @@
 
 <body>
 
-
-    <!--  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">arrow_upward </i></button>-->
+    <button onclick="topFunction();" id="btnScrollToTop" title="Go to top"><i class="material-icons">arrow_upward
+        </i></button>
 
     <!--Iconics-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -189,8 +189,8 @@
                     plantes 100 % naturels tels le laurier, la papaye, le baobab, la cannelle, l'avoine et autres pour
                     apporter à votre peau la beauté et sécurité tant recherchées.</p>
 
-                <p>Eh oui ! Vous voulez en savoir plus <a href="about.html" class="bouton-apropos">cliquez-ici</a></p>
-
+                <p>Eh oui ! Vous voulez en savoir plus</p>
+                <a href="about.html" class="bouton-apropos">cliquez-ici</a>
             </div>
             <div class="apropos-right">
                 <img src="image/about-right.jpg" alt="condiments">
@@ -289,10 +289,13 @@
 
             </div>
         </div>
-        <div class="espace-partenaires ">
+        <!--
+            <div class="espace-partenaires ">
             <h4>Condition pour devennirs partenaires. <br> Téléchargez la documentation <a href="Algo3.pdf"
                     target="_blank">ici</a></h4>
         </div>
+        -->
+
         <div class="témoin-titre ">
             <h2>Points de Vente</h2>
         </div>
@@ -345,10 +348,25 @@
                     </p>
                     <div class="patient">
                         <div class="avatar">
-                            <img src="./image/avatar3.jpg" alt="Patients one" />
+                            <img src="./image/avatar_homme.jpg" alt="Patients one" />
                         </div>
                         <div class="aptient__details">
                             <h5>Ghyslain F.</h5>
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                    <p>
+                        J'ai une peau sensible, j'ai essayé le savon papaye curcuma, il a adoucrcit, nourrit ma peau et
+                        aporté de l'éclat à mon teint. En plus de celà, il a cicatrisé les petis botons que j'avais sur
+                        le visage.
+                    </p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="./image/avatar_femme.jpg" alt="Patients Four" />
+                        </div>
+                        <div class="aptient__details">
+                            <h5>Epiphania G.</h5>
                         </div>
                     </div>
                 </article>
@@ -361,7 +379,7 @@
                     </p>
                     <div class="patient">
                         <div class="avatar">
-                            <img src="./image/avatar2.jpg" alt="Patients two" />
+                            <img src="./image/avatar_homme.jpg" alt="Patients two" />
                         </div>
                         <div class="aptient__details">
                             <h5>Mike B.</h5>
@@ -370,75 +388,37 @@
                 </article>
                 <article class="swiper-slide">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-                        cumque hic repellat. Ducimus, in consequatur?
+                        J'ai essayé le savon chocolat de AllianzNature qui a débarrassé mon visage des tâches, nettoyé
+                        et
+                        rafraîchit ma peau, en plu j'aime particulièrement son odeur de chocolat.
                     </p>
                     <div class="patient">
                         <div class="avatar">
-                            <img src="./image/avatar4.jpg" alt="Patients three" />
+                            <img src="./image/avatar_homme.jpg" alt="Patients three" />
                         </div>
                         <div class="aptient__details">
-                            <h5>Doe ajne</h5>
+                            <h5>Abdul K.</h5>
                         </div>
                     </div>
                 </article>
                 <article class="swiper-slide">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-                        cumque hic repellat. Ducimus, in consequatur?
+                        J'avais des tâches pigmentaires sur les jambes à cause des boutons de moustique et je faisais
+                        également de l'acné sur certaines parties
+                        du corps, j'ai testé le lait parfait ébène et j'ai commencé à voir une nette amélioration au
+                        niveau des tâches. Puis à ma grande suprise une réelle diminution des poussées de boutons d'acné
+                        sur mon corps, la rendant lisse. De plus, je trouve son parfum envoutant.
                     </p>
                     <div class="patient">
                         <div class="avatar">
-                            <img src="./image/avatar5.jpg" alt="Patients Four" />
+                            <img src="./image/avatar_femme.jpg" alt="Patients Five" />
                         </div>
                         <div class="aptient__details">
-                            <h5>Roamne Eltion</h5>
-                        </div>
-                    </div>
-                </article>
-                <article class="swiper-slide">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-                        cumque hic repellat. Ducimus, in consequatur?
-                    </p>
-                    <div class="patient">
-                        <div class="avatar">
-                            <img src="./image/avatar6.jpg" alt="Patients Five" />
-                        </div>
-                        <div class="aptient__details">
-                            <h5>Gracia Proctor</h5>
+                            <h5>Sindy B.</h5>
                         </div>
                     </div>
                 </article>
 
-                <article class="swiper-slide">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-                        cumque hic repellat. Ducimus, in consequatur?
-                    </p>
-                    <div class="patient">
-                        <div class="avatar">
-                            <img src="./image/avatar7.jpg" alt="Patients six" />
-                        </div>
-                        <div class="aptient__details">
-                            <h5>Didie Proctor</h5>
-                        </div>
-                    </div>
-                </article>
-                <article class="swiper-slide">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-                        cumque hic repellat. Ducimus, in consequatur?
-                    </p>
-                    <div class="patient">
-                        <div class="avatar">
-                            <img src="./image/avatar1.jpg" alt="Patients sevecen" />
-                        </div>
-                        <div class="aptient__details">
-                            <h5>Bruce Wills</h5>
-                        </div>
-                    </div>
-                </article>
             </div>
             <div class="swiper-pagination"></div>
         </section>

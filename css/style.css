@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
 
 /*
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
@@ -7,10 +7,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');*/
 
-
 :root {
-  --font-family: 'Quicksand', sans-serif;
-  --font-family-2: 'Josefin Sans', sans-serif;
+  --font-family: "Quicksand", sans-serif;
+  --font-family-2: "Josefin Sans", sans-serif;
   --color-vert: #06300b;
   --color-jaune-aliance: #c36000;
   --color-jaune: yellow;
@@ -18,7 +17,6 @@
 
 * {
   box-sizing: border-box;
-
 }
 
 html {
@@ -28,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   display: flex;
   flex-direction: column;
@@ -67,20 +65,19 @@ body {
   user-select: none;
 }
 
-.menu-item>a {
+.menu-item > a {
   color: #333;
   font-size: 1.2em;
   font-weight: 500;
   text-decoration: none;
   margin: 20px;
   padding: 25px 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.menu-item>a:hover {
+.menu-item > a:hover {
   color: var(--color-jaune-aliance);
   transition: 0.3s;
-
 }
 
 .menu .menu-item .sub-menu {
@@ -117,7 +114,7 @@ body {
   color: #333;
   font-size: 1.2em;
   text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .menu-item .sub-menu .sub-item a:hover {
@@ -127,7 +124,7 @@ body {
 
 #present-sub-item a {
   background-color: #06300b;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 3px;
   color: #fff;
 }
@@ -270,7 +267,6 @@ nav a:hover::before {
   color: #fff;
 }
 
-/**Scroll btn
 #btnScrollToTop {
   position: fixed;
   right: 10px;
@@ -284,12 +280,13 @@ nav a:hover::before {
   border: none;
   outline: none;
   cursor: pointer;
+  z-index: 10000;
 }
 
 #btnScrollToTop:active {
   background: var(--color-jaune-aliance);
 }
-*/
+/*
 #myBtn {
   position: fixed;
   right: 10px;
@@ -308,8 +305,6 @@ nav a:hover::before {
   background: var(--color-jaune-aliance);
 }
 
-
-
 /*loader*/
 .preloader {
   position: fixed;
@@ -318,7 +313,7 @@ nav a:hover::before {
   width: 100%;
   height: 100%;
   background-color: white;
-  z-index: 10000;
+  z-index: 20000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,7 +323,7 @@ nav a:hover::before {
 .preloader img {
   width: 450px;
   margin-bottom: 3em;
-  animation: preLoader .5s forwards;
+  animation: preLoader 0.5s forwards;
   opacity: 5;
 }
 
@@ -428,7 +423,7 @@ nav a:hover::before {
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 0 .8rem black;
+  box-shadow: 0 0 0.8rem black;
 }
 
 /*
@@ -444,7 +439,7 @@ nav a:hover::before {
 */
 .exper p {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -463,17 +458,15 @@ nav a:hover::before {
 .produits-home h2 {
   font-size: 3em;
   font-weight: bold;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: var(--color-vert);
   padding-left: 25px;
-
 }
 
 .produits {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.9em;
-
 }
 
 .produits img {
@@ -545,7 +538,7 @@ nav a:hover::before {
 }
 
 .produits-avoir a {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
@@ -594,7 +587,6 @@ nav a:hover::before {
   text-align: justify;
   margin-top: 1em;
   font: weight 700px;
-
 }
 
 .info-apropos a {
@@ -610,15 +602,12 @@ nav a:hover::before {
   background: whitesmoke;
   color: var(--color-vert);
   border: 1px solid var(--color-vert);
-
 }
 
 .info-apropos span {
   font-family: var(--font-family);
   font-weight: 900;
 }
-
-
 
 .apropos-titre {
   background-color: wheat;
@@ -632,7 +621,7 @@ nav a:hover::before {
 }
 
 .apropos-titre p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .apropos-right img {
@@ -647,7 +636,6 @@ nav a:hover::before {
 .témoignages-container {
   height: 100%;
   background: linear-gradient(-180deg, whitesmoke, wheat, wheat, whitesmoke);
-
 }
 
 .témoin-titre h2 {
@@ -696,7 +684,7 @@ nav a:hover::before {
 }
 
 .ventes-point span {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .ventes-btn {
@@ -719,8 +707,6 @@ nav a:hover::before {
   font-size: 2rem;
 }
 
-
-
 .témoins {
   display: inline-block;
   text-align: center;
@@ -735,10 +721,8 @@ nav a:hover::before {
   text-align: center;
   width: 60%;
   object-fit: cover;
-  transition: .2s cubic-bezier(.95, .05, .8, .04);
+  transition: 0.2s cubic-bezier(0.95, 0.05, 0.8, 0.04);
   /*  animation: témoins-im 1s alternate infinite;*/
-
-
 }
 
 /*
@@ -793,7 +777,7 @@ nav a:hover::before {
 
 .plus-info-text p {
   font-size: 1.4rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   color: white;
   text-align: justify;
@@ -803,7 +787,6 @@ nav a:hover::before {
 .carousel img {
   float: right;
   width: 500px;
-
 }
 
 .swiper {
@@ -815,29 +798,29 @@ nav a:hover::before {
 }
 
 .swiper-slide {
-  background: linear-gradient(135deg, var(--color-vert), var(--color-jaune-aliance));
+  background: linear-gradient(
+    135deg,
+    var(--color-vert),
+    var(--color-jaune-aliance)
+  );
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   cursor: default;
   font-size: 0.9rem;
-
-
 }
 
 .swiper-slide p {
   margin-bottom: 1.5rem;
-  color: #FFF;
-  font-size: .9rem;
+  color: #fff;
+  font-size: 0.9rem;
 }
 
 .patient {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #FFF;
+  color: #fff;
 }
-
-
 
 .patient .avatar img {
   width: 2.5rem;
@@ -850,12 +833,11 @@ nav a:hover::before {
   color: var(--color-vert);
 }
 
-@media screen and (max-width :600px) {
+@media screen and (max-width: 600px) {
   .swiper-slide {
     padding: 1.5rem;
   }
 }
-
 
 .nous-joindre {
   height: 100%;
@@ -892,11 +874,10 @@ nav a:hover::before {
 }
 
 .heures p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-top: 10px;
   font-size: 1.3em;
   font-weight: 500;
-
 }
 
 .right .dim {
@@ -1009,8 +990,6 @@ nav a:hover::before {
   background-color: wheat;
 }
 
-
-
 .about-info {
   position: absolute;
   top: 2em;
@@ -1058,7 +1037,7 @@ nav a:hover::before {
 .about-paragraph h2 {
   font-size: 2.5em;
   color: rgb(25, 68, 0);
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
   padding-left: 5px;
   text-align: center;
@@ -1066,12 +1045,12 @@ nav a:hover::before {
 
 .about-paragraph p {
   font-size: 1.2em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-align: justify;
 }
 
 .about-paragraph span {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 800;
 }
 
@@ -1130,8 +1109,6 @@ nav a:hover::before {
   margin-left: 97px;
 }
 
-
-
 .left {
   grid-template-areas: "left right";
 }
@@ -1185,12 +1162,11 @@ nav a:hover::before {
 }
 
 .produits-info h2 {
-  -webkit-text-stroke: .2rem var(--color-jaune-aliance);
+  -webkit-text-stroke: 0.2rem var(--color-jaune-aliance);
   color: white;
   font-family: var(--font-family-2);
   font-weight: 700;
   font-size: 8em;
-
 }
 
 .produits-info p {
@@ -1212,7 +1188,6 @@ nav a:hover::before {
   width: 90%;
   height: 100%;
   margin: auto;
-
 }
 
 .line-savon-links {
@@ -1220,7 +1195,6 @@ nav a:hover::before {
   border-bottom: 1px dashed gray;
   gap: 2rem;
   align-items: center;
-
 }
 
 .line-savon-links h2 {
@@ -1229,14 +1203,11 @@ nav a:hover::before {
   background-color: #ba5d0e;
   padding: 5px;
   border-radius: 5px;
-
 }
 
 .line-savon-links ul {
   display: flex;
-
 }
-
 
 .line-savon-links a {
   font-size: 17px;
@@ -1270,7 +1241,6 @@ nav a:hover::before {
 .card-wrapper:active .card {
   transition: 0s ease;
   transform: rotateY(180deg);
-
 }
 
 .card {
@@ -1280,7 +1250,6 @@ nav a:hover::before {
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   color: white;
   font-weight: bold;
-
 }
 
 .card-front,
@@ -1349,11 +1318,8 @@ nav a:hover::before {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   text-align: center;
-      font-family: 'Lato', sans-serif;
-
-
+  font-family: "Lato", sans-serif;
 }
-
 
 .card-price {
   font-size: 25px;
@@ -1361,9 +1327,8 @@ nav a:hover::before {
   color: #fff;
   top: 11em;
   left: 8em;
-      font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
-
 
 .card-back {
   background: #c36000;
@@ -1392,7 +1357,6 @@ nav a:hover::before {
   color: #333;
   transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
-
 
 .card-back .info_ingrdients {
   font-size: 14px;
@@ -1436,7 +1400,7 @@ nav a:hover::before {
   font-size: 1.2em;
   color: white;
   background: var(--color-vert);
-  padding: .7rem;
+  padding: 0.7rem;
   text-align: center;
   border: 1px solid var(--color-vert);
 }
@@ -1447,11 +1411,8 @@ nav a:hover::before {
   margin: 0;
   font-weight: 500;
   border-radius: 5px;
-  transition: .5s;
-
+  transition: 0.5s;
 }
-
-
 
 /*
 =============== 
@@ -1487,7 +1448,6 @@ nav a:hover::before {
   margin: 0;
 }
 
-
 .service-menu-sub-items ul {
   display: flex;
   justify-content: center;
@@ -1501,7 +1461,7 @@ nav a:hover::before {
   text-decoration: none;
   line-height: 65px;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   background-color: var(--color-jaune-aliance);
   border-radius: 15px;
@@ -1519,8 +1479,6 @@ nav a:hover::before {
   background-image: url(../image/contact-affiche.jpg);
   width: 100%;
 }
-
-
 
 #suivi-personels h2 {
   color: var(--color-vert);
@@ -1566,7 +1524,6 @@ nav a:hover::before {
   border-bottom: solid 2px #0e3959;
   padding: 0 8rem;
   background-color: wheat;
-
 }
 
 .suivi-container p {
@@ -1576,13 +1533,10 @@ nav a:hover::before {
   font-size: 3em;
 
   font-weight: 900;
-
-
 }
 
 .suivi-container {
   text-align: center;
-
 }
 
 .suovi {
@@ -1592,7 +1546,6 @@ nav a:hover::before {
 }
 
 .suovi a {
-
   text-decoration: none;
   color: white;
   background-color: var(--color-jaune-aliance);
@@ -1612,7 +1565,6 @@ nav a:hover::before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .conseil1-1 li {
@@ -1664,7 +1616,6 @@ nav a:hover::before {
   shape-outside: circle();
   margin-right: 71px;
   border: 6px solid var(--color-jaune-aliance);
-
 }
 
 .suivi__image-left {
@@ -1679,7 +1630,6 @@ nav a:hover::before {
   shape-outside: circle();
   margin-left: 71px;
   border: 6px solid var(--color-jaune-aliance);
-
 }
 
 .suivi__text h3 {
@@ -1715,7 +1665,7 @@ nav a:hover::before {
 }
 
 .besoins-conseils {
-  background-color: #cdcdcd;
+  background-color: wheat;
   padding: 3em 6em;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -1729,7 +1679,6 @@ nav a:hover::before {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-
 }
 
 .besoins-conseils-image li {
@@ -1737,12 +1686,11 @@ nav a:hover::before {
   margin: 0;
   padding: 0;
   margin-top: -26px;
-
 }
 
 .besoins-conseils-image img {
   width: 95%;
-  border: 3px solid var(--color-vert);
+  border: 5px solid var(--color-jaune-aliance);
   border-radius: 50%;
   object-fit: cover;
   aspect-ratio: 1/1;
@@ -1782,10 +1730,6 @@ nav a:hover::before {
   border: 1px solid var(--color-vert);
 }
 
-
-
-
-
 /*/
 #composition-personels {
   height: 120vh;
@@ -1824,7 +1768,7 @@ nav a:hover::before {
   background: linear-gradient(-180deg, whitesmoke, wheat, wheat, whitesmoke);
 }
 
-.magazine-info >p{
+.magazine-info > p {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
@@ -1835,7 +1779,6 @@ nav a:hover::before {
   margin: 1em 10em;
 
   text-align: center;
-
 }
 
 .magazine-information p {
@@ -1890,7 +1833,7 @@ nav a:hover::before {
 
 .magazine1-page {
   margin: 2em 5em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   width: 700px;
   border-right: 3px solid olivedrab;
 }
@@ -1936,6 +1879,70 @@ nav a:hover::before {
   color: black;
   text-decoration: none;
   text-align: justify;
+}
+
+/*----- ARTICLE_PAGE *----------------*/
+
+.article__page {
+  text-align: center;
+  margin: 3rem 5rem;
+}
+
+.article__page .blogging {
+  background: white;
+  padding: 3rem;
+}
+
+.article__page .blog1 {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  border-bottom: 2px solid var(--color-vert);
+}
+
+
+.article__page .blog__info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 4rem;
+  padding-left: 64px;
+}
+.article__page .blog__info >div{
+  max-width: 400px;
+}
+.article__page .blog__info img{
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+ border-radius: 20px;
+}
+.article__page .blog1 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.article__page .blog1 article {
+  text-align: left;
+  padding: 3rem;
+  font-size: 1.2rem;
+  max-width: 500px;
+}
+
+.article__page .blog1 article span {
+  font-weight: 700;
+}
+
+.article__page .blog1 article small {
+  font-style: italic;
+  font-weight: 800;
 }
 
 /*
@@ -2018,7 +2025,12 @@ nav a:hover::before {
 
 .contactUs {
   position: relative;
-  background: linear-gradient(90deg, var(--color-vert), white 100%, var(--color-jaune-aliance));
+  background: linear-gradient(
+    90deg,
+    var(--color-vert),
+    white 100%,
+    var(--color-jaune-aliance)
+  );
   width: 100%;
   padding-left: 5em;
   padding-right: 5em;
@@ -2135,7 +2147,7 @@ nav a:hover::before {
 
 .inputBox input[type="submit"]:hover {
   background: var(--color-jaune-aliance);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .inputBox ::placeholder {
@@ -2283,7 +2295,6 @@ Footer
 ===============
 */
 footer {
-
   position: sticky;
   margin-top: 5em;
 }
@@ -2324,19 +2335,14 @@ footer {
 
 .footer-logo,
 .page-footer a {
-  font-family: 'BradleyHandITCBold';
+  font-family: "BradleyHandITCBold";
   color: aquamarine;
   font-size: 20px;
 }
 
-
 .small-home {
   display: none;
 }
-
-
-
-
 
 /*============================= 
             RESPONSIVE 
@@ -2344,10 +2350,7 @@ footer {
 
   */
 
-
 @media screen and (max-width: 1244px) {
-
-
   /*Nav*/
 
   header .container-home .menu {
@@ -2363,9 +2366,8 @@ footer {
     transition: 0.5s;
     transition-property: right;
 
-    animation: navbar .3s forwards;
+    animation: navbar 0.3s forwards;
     opacity: 1;
-
   }
 
   @keyframes navbar {
@@ -2398,7 +2400,6 @@ footer {
     transform: translateX(10px);
   }
 
-
   .menu-item .sub-menu .sub-item {
     box-shadow: none;
   }
@@ -2425,8 +2426,6 @@ footer {
     display: none;
   }
 
-
-
   /*------------- HOME -------------------*/
   .slider {
     margin-bottom: 1rem;
@@ -2434,7 +2433,7 @@ footer {
   }
 
   .slider img {
-    Width: 100%;
+    width: 100%;
     height: 100%;
   }
 
@@ -2457,7 +2456,6 @@ footer {
 
   .produits-img {
     height: 15rem;
-
   }
 
   .Container-apropos {
@@ -2478,7 +2476,6 @@ footer {
     text-align: center;
   }
 
-
   .besoins-conseils-home-container .media-small {
     display: block;
     text-transform: uppercase;
@@ -2487,7 +2484,6 @@ footer {
     color: #06300b;
     font-weight: 800;
   }
-
 
   #suivi-personels-home {
     height: 100%;
@@ -2500,7 +2496,6 @@ footer {
 
   .suivi-container h2 {
     font-size: 2.4em;
-
   }
 
   .suovi {
@@ -2527,7 +2522,6 @@ footer {
     gap: 1rem;
     padding: 1rem 5rem;
     margin: 0;
-
   }
 
   .left .content {
@@ -2569,7 +2563,6 @@ footer {
     font-size: 20px;
   }
 
-
   /*------------- Services -------------------*/
   .service-menu-sub-items ul {
     display: grid;
@@ -2597,8 +2590,6 @@ footer {
     margin-left: -119px;
   }
 
-
-
   /*===============MAGAZINE =================*/
 
   .container-magaazine {
@@ -2615,21 +2606,10 @@ footer {
     margin-left: 30px;
     margin-right: 30px;
   }
-
-
-
-
-
-
 }
 
-
-
 @media screen and (max-width: 1080px) {
-
   /*------------- HOME -------------------*/
-
-
 
   .container-info h2 {
     font-size: 2em;
@@ -2679,8 +2659,6 @@ footer {
     margin-bottom: 4em;
   }
 
-
-
   /*----------- NOS PRODUITS --------*/
 
   .produits-info {
@@ -2692,7 +2670,7 @@ footer {
   }
 
   .produits-name-page a {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   .produits-name-page a:hover {
@@ -2707,7 +2685,6 @@ footer {
     font-size: 13px;
     font-weight: 500;
   }
-
 
   /*------------- Services -------------------*/
 
@@ -2736,6 +2713,25 @@ footer {
     align-items: center;
   }
 
+
+  /*-------------MAGAZINE--------------*/
+
+  .article__page .blog1{
+    gap: 1.5rem;
+  }
+  .article__page .blog__info{
+    padding-left: 0;
+  }
+
+  .article__page .blog1 img, .article__page .blog__info img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .article__page .blogging{
+    padding-top: 0;
+  }
+
   /*================= CONTACTS =========*/
   .contact-page {
     margin-top: 0;
@@ -2752,14 +2748,9 @@ footer {
   .box {
     margin-top: 0;
   }
-
-
-
 }
 
-
 @media screen and (max-width: 940px) {
-
   /*=========== HOME ============*/
   .info-apropos p {
     font-size: 17px;
@@ -2799,8 +2790,6 @@ footer {
     font-size: 38px;
   }
 
-
-
   .row-right h4 {
     font-size: 1.9em;
   }
@@ -2827,12 +2816,13 @@ footer {
 
   .plus-info-text p {
     font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: left;
   }
 
   .plus-info-text {
     padding: 1rem 3rem;
   }
-
 
   /*------------- ABOUT -------------------*/
   .image-about {
@@ -2867,13 +2857,15 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 
-
   /*-----------SERVICES---------------*/
   .about-paragraph p {
     font-size: 1em;
   }
 
-
+  /*------------- MAGAZINE -------------*/
+  .article__page .blog1 article{
+    padding: 1rem;
+  }
   /*============ CONTACT =================*/
   .box {
     display: flex;
@@ -2904,19 +2896,7 @@ footer {
   .map iframe {
     height: 40vh;
   }
-
-
-
-
-
-
-
-
 }
-
-
-
-
 
 @media screen and (max-width: 894px) {
   /* ============= HOME ==========*/
@@ -2927,13 +2907,11 @@ footer {
 
   .produits-img {
     height: 18rem;
-
   }
 
   .produits-img {
     height: 15rem;
   }
-
 
   .joindre-footer {
     display: block;
@@ -2966,13 +2944,11 @@ footer {
     padding: 0 5rem;
   }
 
-
   #suivi-personels-home {
     height: 100%;
     padding: 0 5rem;
     padding-bottom: 3rem;
   }
-
 
   .suovi {
     display: inline-block;
@@ -2988,7 +2964,6 @@ footer {
   .ventes-btn h2 {
     font-size: 0.7rem;
   }
-
 
   .besoins-conseils img {
     width: 100%;
@@ -3015,7 +2990,7 @@ footer {
   }
 
   .float-right {
-    background-color: rgba(17, 17, 17, 0.849);
+    background-color: rgba(185, 185, 185, 0.85);
     padding: 0 1rem;
   }
 
@@ -3025,15 +3000,13 @@ footer {
   }
 
   .about-paragraph h2 {
-    color: var(--color-jaune);
+    color: var(--color-jaune-aliance);
     font-family: var(--font-family-2);
     font-size: 3rem;
     font-weight: 600;
     margin: 0;
     padding-top: 30px;
   }
-
-
 
   /*------------- PRODUIT--------------*/
   .produits-info h2 {
@@ -3043,7 +3016,6 @@ footer {
   .line-savon-links h2 {
     margin-right: 487px;
   }
-
 
   /*--------- SERVICES -----------*/
   .about-paragraph p {
@@ -3076,7 +3048,6 @@ footer {
     font-size: 1.7rem;
   }
 
-
   /*============= MAGAZINE ===============*/
 
   .magazine1 {
@@ -3089,6 +3060,22 @@ footer {
 
   .magazine1 h4 {
     margin-right: 0;
+  }
+
+  .article__page .blog__info{
+    grid-template-columns: 1fr;
+  }
+
+  .article__page .blog__info > div{
+    max-width: none;
+  }
+  .article__page .blog1 article{
+    font-size: 1rem;
+  }
+
+  .article__page .blog1 img{
+    display: none;
+    
   }
 
   /*=============== CONTACTS ============*/
@@ -3117,15 +3104,9 @@ footer {
   .ventes_point-contact h2 {
     font-size: 1.4rem;
   }
-
-
-
-
 }
 
-
 @media screen and (max-width: 700px) {
-
   .info-exper {
     display: inline-block;
     margin: auto 54px;
@@ -3187,7 +3168,7 @@ footer {
   }
 
   .besoins-conseils-home-container {
-    margin-bottom: 13px;
+    margin-bottom: 50px;
   }
 
   .besoins-conseils-home-container h2 {
@@ -3200,6 +3181,7 @@ footer {
 
   .plus-info-text h4 {
     font-size: 2em;
+    color: var(--color-jaune-aliance);
   }
 
   #suivi-personels-home {
@@ -3249,7 +3231,6 @@ footer {
     padding: 0 32px;
   }
 
-
   .page-footer {
     display: inline-block;
     height: 7rem;
@@ -3270,8 +3251,6 @@ footer {
   .page-footer p {
     padding-left: 0;
   }
-
-
 
   /*------------- ABOUT -------------------*/
   .feateure {
@@ -3307,9 +3286,7 @@ footer {
 
   .feateure img {
     width: 33em;
-
   }
-
 
   /*-------- PRODUIT ----------*/
   .produits-info {
@@ -3318,7 +3295,7 @@ footer {
 
   .produits-info h2 {
     font-size: 4.5em;
-    -webkit-text-stroke: .1rem var(--color-jaune-aliance);
+    -webkit-text-stroke: 0.1rem var(--color-jaune-aliance);
   }
 
   .produits-name-page ul {
@@ -3327,7 +3304,7 @@ footer {
 
   .line-savon-links ul {
     display: flex;
-    gap: .3rem;
+    gap: 0.3rem;
   }
 
   .line-savon-links a {
@@ -3348,7 +3325,6 @@ footer {
     margin: 5px 48px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
   }
 
   .suivi__text h3 {
@@ -3366,9 +3342,8 @@ footer {
   }
 
   .about-paragraph p {
-    font-size: .90em;
+    font-size: 0.9em;
   }
-
 
   .magazine-information {
     margin: 1em 2em;
@@ -3392,15 +3367,12 @@ footer {
   .information .infoBox div a {
     font-size: 1em;
   }
-
-
-
 }
 
-
-
 @media screen and (max-width: 570px) {
-
+  .produits-section {
+    padding-top: 2em;
+  }
   .icon-home {
     font-size: 14px;
   }
@@ -3408,7 +3380,6 @@ footer {
   .hero p {
     font-size: 12px;
   }
-
 
   .icon-resaux a {
     padding: 0;
@@ -3460,8 +3431,6 @@ footer {
     gap: 1rem;
   }
 
-
-
   .témoins img {
     width: 40%;
   }
@@ -3482,7 +3451,6 @@ footer {
     margin-top: 20px;
   }
 
-
   .témoin-titre h2 {
     font-size: 2em;
     padding-left: 0;
@@ -3499,7 +3467,6 @@ footer {
     text-align: center;
   }
 
-
   /*===== ABOUT ===*/
 
   .about-paragraph p {
@@ -3515,13 +3482,13 @@ footer {
   .left .content {
     margin-left: 55px;
     padding-left: 11px;
-    padding-right: 25px
+    padding-right: 25px;
   }
 
   .content {
     margin-left: 55px;
     padding-left: 11px;
-    padding-right: 25px
+    padding-right: 25px;
   }
 
   .feateure {
@@ -3532,13 +3499,11 @@ footer {
   .content .desc {
     width: 86%;
     font-size: 1.2rem;
-
   }
 
   .feateure img {
     width: 20em;
   }
-
 
   /*======= PRODUITS ============*/
   .produits-info h2 {
@@ -3567,14 +3532,11 @@ footer {
 
   .produits-name-page ul {
     grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
+    gap: 0.5rem;
     padding: 0;
   }
 
-
-
   /*============= SERVICES ================*/
-
 
   .suivi__text h3,
   .suivi__text-left h3 {
@@ -3582,7 +3544,7 @@ footer {
   }
 
   .about-paragraph p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   .suivi__text h3 {
@@ -3647,6 +3609,9 @@ footer {
     width: 387px;
   }
 
+  .article__page{
+    margin: 3rem 0;
+  }
 
   /*============ CONTACTS ===================*/
 
@@ -3704,9 +3669,28 @@ footer {
     margin: 2.5em;
   }
 
+  .preloader img{
+    width: 300px;
+  }
 
+  .preloader .loader {
+    width: 50px;
+    height: 50px;
+  }
+
+  .preloader .loader::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 3px solid black;
+    border-color: black transparent black transparent;
+    border-radius: 50%;
+    animation: loader 1s infinite ease-in-out;
+  }
+  
+  
 }
-
 
 @media screen and (max-width: 464px) {
   .produits-info {
@@ -3740,7 +3724,6 @@ footer {
     margin: 0;
     padding: 0;
     text-align: center;
-
   }
 
   .line-savon-links h2 {
@@ -3752,4 +3735,26 @@ footer {
     text-align: center;
     margin-left: 25px;
   }
+
+  .about-paragraph h2{
+    font-size: 2rem;
+  }
 }
+
+/*
+#header-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: grey;
+  height: 50px;
+}
+#close-bar {
+  position: absolute;
+  bottom: -20px;
+  background: red;
+  color: white;
+}
+
+*/

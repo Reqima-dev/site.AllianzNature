@@ -1,31 +1,3 @@
-/*Loader*/
-setTimeout(() => {
-    document.querySelector('.preloader').style.display = "none"
-}, 560);
-
-/*NAVBAR RESPONSIVE*/
-
-$ (document).ready(function(){
-    $(".sub-btn").click(function(){
-        $(this).next(".sub-menu").slideToggle();
-    })
-})
-
-/*
-var navItems = document.querySelector(".menu")
-var openNavBtn = document.querySelector("#open__nav-btn")
-var closeNavBtn = document.querySelector("#close__nav-btn")
-
-openNavBtn.addEventListener("click", ()=>{
-    navItems.classList.add("active");
-});
-
-closeNavBtn.addEventListener("click", ()=>{
-    navItems.classList.remove("active");
-});
-*/
-/* Open and close Navbar Smal Screen*/
-
 const navItems =document.querySelector(".menu")
 const openNavBtn =document.querySelector("#open__nav-btn")
 const closeNavBtn =document.querySelector("#close__nav-btn")
@@ -42,10 +14,34 @@ const closeNav=()=>{
     closeNavBtn.style.display='none';
 }
 
-
-
 closeNavBtn.addEventListener('click', closeNav);
 
+
+
+const btnScrollToTop = document.querySelector('#btnScrollToTop');
+btnScrollToTop.addEventListener("click", function(){
+    window.scrollTo(0, 0);
+
+    window.scrollTo({
+        top:0,
+        left :0,
+        behavior:"smooth"
+    })
+    
+})
+
+//Loader
+setTimeout(() => {
+    document.querySelector('.preloader').style.display = "none"
+}, 560);
+
+//NAVBAR RESPONSIVE
+
+$ (document).ready(function(){
+    $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+    })
+})
 
 
 
@@ -104,20 +100,7 @@ date.textContent = currentYear
 
 
 
-//ScrolToTOPBUTTON
-/*
-const btnScrollToTop = document.querySelector('#btnScrollToTop');
-btnScrollToTop.addEventListener("click", function(){
-    //window.scrollTo(0, 0);
 
-    window.scrollTo({
-        top:0,
-        left :0,
-        behavior:"smooth"
-    })
-    
-})
-*/
 
 
 
@@ -149,3 +132,6 @@ var swiper = new Swiper(".mySwiper", {
 
     }
 });
+
+
+
